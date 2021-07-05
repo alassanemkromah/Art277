@@ -12,6 +12,8 @@ body{
     font-family: 'popons', sans-serif;
     background-color: rgb(27,27,27);
     overflow-x: hidden;
+    Width: 95%;
+    Margin: 0 auto;
 }
 
 .header{
