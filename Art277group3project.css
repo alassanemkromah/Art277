@@ -244,6 +244,7 @@ header .title .header-sub-title {
 #about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  Position: relative;
   margin: 6rem auto;
   height: 60vh;
   margin-top: 10vh;
