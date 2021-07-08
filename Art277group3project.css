@@ -245,7 +245,6 @@ header .title .header-sub-title {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 6rem auto;
-  position: relative;
   height: 60vh;
   margin-top: 10vh;
   Background-image: url(VIP sitting area.jpg);
