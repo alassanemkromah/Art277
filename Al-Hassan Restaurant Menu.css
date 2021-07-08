@@ -15,7 +15,7 @@ html{
 }
 
 body {
-    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/RESTAURANT.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(RESTAURANT.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -125,7 +125,7 @@ body {
   margin: 6rem 2rem;
 }
 .menu_content {
-  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/RESTAURANT.jpg);
+  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(RESTAURANT.jpg);
   padding: 2rem;
 }
 .menu_title {
@@ -151,7 +151,7 @@ body {
     display: none;
   }
   .menu_content {
-    background-image: url(images/Rice-1.jpg);
+    background-image: url(Rice-1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
