@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alassane M. Kromah">
+    <meta name="keywords" content="Final Project">
+    <meta name="description" content="Bulding a responsive restaurant as our final project for the course Art277.">
+      <link rel="stylesheet" href="background_styles.css">
+      <link rel="stylesheet" href="Art277group3project.css">
+      <script src="script.js.js" defer></script>
+      <title>Al-Hassan Restaurant</title>
+    </head>
+
+    <body>
+      <nav class="navbar">
+        <div class="brand-title"><li><a href="Art277group3project.html" class="nav_item-left" style="text-decoration:none; color: black; border: 2px solid #da6b1d; width:150px; height:110px; text-align: center;"><strong><span style="color: orangered;">Al-Hassan</span><br> <img src="images/Rice-4.jpeg" style="width:100px; height:50px;"><br><span style="color: white;">Restaurant</span></strong></a></li></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="Menu/Al-Hassan Restaurant Menu.html">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#online reservation">Online Reservation</a></li>
+            <li><a href="#footer">Footer</a></li>
+          </ul>
+        </div>
+      </nav>
+
+       <!-- Header Section -->
+    <header class="header" id="home">
+      <section class="bg_img">
+        <div id="slider">
+          <figure>
+            <img src="images/Rice-1.jpg">
+            <img src="images/Attieke-1.jpg">
+            <img src="images/Roasted Fish-2.jpg">
+            <img src="images/Goat Soup-1.jpg">
+            <img src="images/Bread -1.jpg">
+          </figure>
+        </div>
+        <div class="title">
+          <h1 class="header-title">Al-Hassan</h1>
+          <h2 class="header-sub-title">Restaurant</h2>
+        </div>
+      </section>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about">
+      <div class="about_content-left"></div>
+      <div class="about_content-right">
+        <h1 class="about_title">About Us</h1>
+        <h5 class="about_sub_title">
+          A Restaurant Since 2018
+        </h5>
+        <p class="about_text">
+           Al-Hassan Restaurant is the restaurant located on the Gardnersville Road, 
+           Bardnersville Road Somalia Drive, Monrovia-Liberia. The restaurant was officially 
+           opened in the year 2018. From the opening up to present it customers increased as
+           the passes. We offer different preparation of our various meals listed on the menu
+        </p>
+        <p class="about_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsam
+          tempora perspiciatis, facilis vel disquis quos aspernatur maxime.
+          Laboriosam perspiciatis voluptate assumenda nihil vitae dicta nostrum.
+        </p>
+        <a href="#" class="read_more">
+          <label for="more"> Read more...</label>
+        </a>
+      </div>
+    </section>
+    <hr />
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <section class="contact">
+        <div class="contact_us_form">
+          <div class="contact-form">
+              <form class="form">
+                  <h1 class="contact-heading">Contact Us</h1>
+                  <div class="form-group">
+                      <input type="text" class="input" id="Name" placeholder="Name..." required>
+                      <label for="name">Name</label>
+                  </div>
+                  <div class="form-group">
+                      <input type="Email" class="input" id="Email" placeholder="Email..." required>
+                      <label for="email">Email</label>
+                  </div>
+                  <div class="form-group">
+                      <textarea type="text" class="input textarea" placeholder="massage....." required></textarea>
+                      <label for="massage">Message</label>
+                  </div>
+                  <a href="#" class="contact-btn">Submit</a>
+              </form>
+          </div>
+      </div>
+
+<!--online reservation section-->
+      <section id="online reservation">
+        <form action="" class="reservation_form">
+          <h2 class="reservation-heading">Reservation Form</h2>
+          <input type="text" placeholder="Name" required name="Name" />
+          <input
+            type="number"
+            placeholder="How many people"
+            required
+            name="People Name"
+          />
+          <div class="date_time">
+            <label for="date" class="date" style="color: white; font-size: 22px;">Reservation Date & Time:</label>
+            <input
+              type="datetime-local"
+              class="date"
+              placeholder="Date and time"
+              required
+              name="date"
+              value="2020-11-16t20:20"
+            />
+          </div>
+          <input
+            type="text"
+            placeholder="Message \ Special requiermants"
+            required
+            name="Message"
+          />
+          <button class="message_btn" type="submit">SEND MESSAGE</button>
+        </form>
+      </section>
+      </section>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p>
+        Powered by <a href="#"> <span>Alassane M. Kromah</span> &copy;2021</a>
+      </p>
+
+      <div id="footer">
+        <h2>Copyright &copy; 2021 , Al-Hassan Restaurant</h2>
+        <p style="color: white">All Rights Reserved</p>
+        <p style="color: white">Developed & Maintained by
+            <a href="https://github.com/alassanemkromah" target="blank">
+                Al-Hassan Restaurant Corp.
+            </a>
+        </p>
+    </div>
+
+    </footer>
+    </body>
+</html>
