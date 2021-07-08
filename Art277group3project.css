@@ -316,7 +316,7 @@ header .title .header-sub-title {
   width: 100%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  position: relative;
+  Margin: 3rem 0;
 }
 
 .contact-form{
